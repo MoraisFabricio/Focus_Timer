@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: white;
+  --secondary-color: black;
+  --primary-tag: #e1e1e6;
+  --secondary-tag: #02799d;
+}
+
+.tag-theme {
+  --secondary-tag: #e1e1e6;
+  --primary-tag: #02799d;
+}
+
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+body {
+  background: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  margin: 15rem auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+#icon {
+  display: flex;
+  position: absolute;
+  top: 5rem;
+  right: 10rem;
+
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 12.5rem;
+  display: flex;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.controls {
+  display: flex;
+  gap: 3.8rem;
+
+  justify-content: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 3.2rem;
+}
+#tree,
+#rain,
+#house,
+#fire {
+  height: 15rem;
+  width: 14rem;
+  background-color: var(--primary-tag);
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags img {
+  position: absolute;
+}
+
+[type="range"] {
+  height: 5px;
+  width: 100px;
+  border-radius: 5px;
+
+  margin-top: 120px;
+  position: absolute;
+
+  cursor: pointer;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/png" />
+  </head>
+
+  <body>
+    <main>
+      <img id="icon" src="img/sun.png" alt="light theme" />
+
+      <div class="clock">
+        <div class="timer">
+          <span id="minutes">25</span>
+          <span id="dots">:</span>
+          <span id="seconds">00</span>
+        </div>
+
+        <div class="controls">
+          <button id="play">
+            <img id="playicon" src="img/play.png" alt="play button" />
+          </button>
+
+          <button id="stop">
+            <img id="stopicon" src="img/stop.png" alt="stop button" />
+          </button>
+
+          <button id="add">
+            <img id="addicon" src="img/add.png" alt="add minutes" />
+          </button>
+
+          <button id="sub">
+            <img id="subicon" src="img/sub.png" alt="sub minutes" />
+          </button>
+        </div>
+      </div>
+
+      <div class="tags">
+        <button id="tree">
+          <img id="treeicon" src="img/tree.png" alt="tree button" />
+          <input id="volume-tree" type="range" min="0" max="100" value="50">
+        </button>
+
+        <button id="rain">
+          <img id="rainicon" src="img/rain.png" alt="rain button" />
+          <input id="volume-rain" type="range" min="0" max="100" value="50">
+        </button>
+
+
+        <button id="house">
+          <img id="houseicon" src="img/house.png" alt="house button" />
+          <input id="volume-house" type="range" min="0" max="100" value="50">
+        </button>
+
+        <button id="fire">
+          <img id="fireicon" src="img/fire.png" alt="fire button" />
+          <input id="volume-fire" type="range" min="0" max="100" value="50">
+        </button>
+      </div>
+
+      <audio src="sound/alarm.mp3" id="alarm"></audio>
+      <audio src="sound/tree.wav" id="tree_sound"></audio>
+      <audio src="sound/rain.wav" id="rain_sound"></audio>
+      <audio src="sound/house.wav" id="house_sound"></audio>
+      <audio src="sound/fire.wav" id="fire_sound"></audio>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
