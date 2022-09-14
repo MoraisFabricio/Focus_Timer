@@ -11,7 +11,7 @@ Inspired by Pomodoro´s technique with 25 minutes study sessions.
 
 The timer can be add or sub minutes, reset clock, play nature sounds with a volume control.
 
-![1](https://user-images.githubusercontent.com/101112203/190250532-40e45531-3eac-4b21-bcaa-5c263ad8e5e6.png)
+![1](https://user-images.githubusercontent.com/101112203/190250845-8ff20a58-b7b8-4607-98bb-1278ab98d2a6.png)
 
 
 ## Features
