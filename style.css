@@ -8,43 +8,62 @@
 
 :root {
   font-size: 62.5%;
-  --primary-color: white;
+  --primary-color: url(/img/landscape1.jpg);
   --secondary-color: black;
-  --primary-tag: #e1e1e6;
-  --secondary-tag: #02799d;
+  --primary-tag: #e1e1e670;
+  --secondary-tag: #02799d8a;
 }
 
 .tag-theme {
-  --secondary-tag: #e1e1e6;
-  --primary-tag: #02799d;
+  --secondary-tag: #e1e1e670;
+  --primary-tag: #02799d8a;
 }
 
 .dark-theme {
-  --primary-color: black;
+  --primary-color: url(/img/landscape2.jpg);
   --secondary-color: white;
 }
 
 body {
   background: var(--primary-color);
   font-family: "Roboto", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 280%;
+
+  overflow: hidden;
 }
 
 main {
   display: flex;
-  margin: 15rem auto;
+  margin: auto;
   align-items: center;
   justify-content: center;
   gap: 10rem;
+  background: #e1e1e63f;
+  height: 520px;
+  width: 800px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
 }
 
 #icon {
   display: flex;
   position: absolute;
-  top: 5rem;
-  right: 10rem;
 
-  width: 5rem;
-  height: 5rem;
+  top: 3rem;
+  right: 3rem;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
 }
 
@@ -103,6 +122,8 @@ button {
 
   cursor: pointer;
 }
+
+
 
 
 
