@@ -13,8 +13,7 @@ The timer can be add or sub minutes, reset clock, play nature sounds with a volu
 
 ## Features
 ![FocusTimer](https://user-images.githubusercontent.com/101112203/197348638-1899d614-3799-4818-9341-455311baa7b2.jpg)
-![FocusTimer2](https://user-images.githubusercontent.com/101112203/197348515-a72a2ffa-773d-42b2-b206-9ccb92f1e5dc.jpg)
-
+![FocusTimer2](https://user-images.githubusercontent.com/101112203/197348681-9ea054ff-b44b-4c4d-b954-45bebb5086b5.jpg)
 
 - Light/dark mode toggle
 - Sounds with volume control
