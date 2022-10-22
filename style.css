@@ -8,7 +8,7 @@
 
 :root {
   font-size: 62.5%;
-  --primary-color: url(/img/landscape1.jpg);
+  --primary-color: url(/img/Landscape1.jpg);
   --secondary-color: black;
   --primary-tag: #e1e1e670;
   --secondary-tag: #02799d8a;
@@ -20,7 +20,7 @@
 }
 
 .dark-theme {
-  --primary-color: url(/img/landscape2.jpg);
+  --primary-color: url(/img/Landscape2.jpg);
   --secondary-color: white;
 }
 
