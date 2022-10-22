@@ -11,10 +11,10 @@ Inspired by Pomodoro´s technique with 25 minutes study sessions.
 
 The timer can be add or sub minutes, reset clock, play nature sounds with a volume control.
 
-![1](https://user-images.githubusercontent.com/101112203/190250845-8ff20a58-b7b8-4607-98bb-1278ab98d2a6.png)
-
-
 ## Features
+![FocusTimer](https://user-images.githubusercontent.com/101112203/197348506-9a2488e0-6111-41fc-8bf0-b6c0fd0397ab.jpg)
+![FocusTimer2](https://user-images.githubusercontent.com/101112203/197348515-a72a2ffa-773d-42b2-b206-9ccb92f1e5dc.jpg)
+
 
 - Light/dark mode toggle
 - Sounds with volume control
